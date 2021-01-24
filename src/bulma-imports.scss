@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&display=swap');
+
+$family-sans-serif: "Fraunces";
+$family-serif: "Fraunces";
+
+$text: rgb(247, 244, 236);
+$text-strong: rgb(255, 248, 230);
+
+$link: rgb(255, 244, 180);
+$link-hover: rgb(255, 223, 180);
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
