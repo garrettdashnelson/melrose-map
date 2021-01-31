@@ -50,7 +50,7 @@
     </div>
       <div class="column is-half">
         <h3 class="is-size-4 is-italic">Interactive map</h3>
-        <a href="" class="button is-link is-outlined my-2">Visit the web map</a><br>
+        <a href="" class="button is-link is-outlined my-2" on:click={function(){ section='webmap'; }}>Visit the web map</a><br>
         <button class="button is-link is-outlined my-2" on:click={function(){ section='itineraries'; }}>Melrose itineraries</button><br>
       </div>
 
@@ -75,8 +75,14 @@
     </div>
     
   </div>
+  {:else if section==='webmap'}
+    <div class="container mt-5">
+      blah
+    </div>
+
   {:else if section==='itineraries'}
     <div class="container mt-5">
+      
       <h2 class="title is-size-2">Itineraries</h2>
       <div class="columns">
         <div class="column is-half">
